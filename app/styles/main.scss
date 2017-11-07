@@ -2,9 +2,10 @@
 // endbower
 
 body {
-  background: #fafafa;
+  background: url('/../images/forest.jpg') repeat-y;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
+  background-size: cover;
 }
 
 .hero-unit {
