@@ -80,3 +80,26 @@ body {
   content: '>';
   padding-right: 10px;
 }
+
+
+// SIDEBAR FOR CONTACT ME INFO & FORM
+.contact {
+  height: 100vh;
+  left: 100vw;
+  position: fixed;
+  width: 300px;
+  
+  background-color: red;
+  transition: 1s;
+}
+
+.switcher {
+// .contact:hover {
+  left: calc(100vw - 300px);
+  transition-timing-function: ease;
+}
+
+.contact-button {
+  background-color: blue;
+  cursor: pointer;
+}
