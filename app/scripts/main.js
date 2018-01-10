@@ -7,5 +7,12 @@ $(document).ready(function() {
 
 function showContactSidebar() {
   $( '.js-contact' ).toggleClass('switcher');
-  $( '.js-contact-button-text' ).text('CLOSE');
+  var $buttonText = $( '.js-contact-button-text' );
+  $buttonText.text(getContactButtonText($buttonText.text()));
+}
+
+function getContactButtonText(currentText) {
+  var contactButtonTexts = ['CONTACT', 'CLOSE'];
+
+  return contactButtonTexts.filter(function(text) { return text !== currentText});
 }
