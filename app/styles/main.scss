@@ -115,3 +115,29 @@ body {
   width: 75px;
   text-align: center;
 }
+
+// SOCIAL MEDIA ICONS
+.social-buttons-set {
+  display: flex;
+  justify-content: center;
+}
+.social-icon {
+  width: 40px;
+  height: 25px;
+}
+
+.social-icon:hover {
+  opacity: 0.5;
+}
+
+.github {
+  background: url('/../images/github.svg') no-repeat;
+}
+
+.linkedin {
+  background: url('/../images/linkedin.svg') no-repeat;
+}
+
+.twitter {
+  background: url('/../images/twitter.svg') no-repeat;
+}
